@@ -64,12 +64,6 @@ class RombergViewController: UIViewController, ARSessionDelegate {
         }
         
         //Add the anchors to the scene
-        /*arView.scene.addAnchor(headAnchor)
-        arView.scene.addAnchor(hipAnchor)
-        arView.scene.addAnchor(rightHandAnchor)
-        arView.scene.addAnchor(leftHandAnchor)
-        arView.scene.addAnchor(rightFootAnchor)
-        arView.scene.addAnchor(leftFootAnchor)*/
         arView.scene.addAnchor(characterAnchor)
 
         // Run a body tracking configration.
